@@ -18,5 +18,5 @@ const imageSchema = new mongoose.Schema({
 });
 
 
-const ImageModel = mongoose.model("portal5", imageSchema, "portal5");
+const ImageModel = mongoose.model("portal8", imageSchema, "portal8");
 module.exports = ImageModel;
