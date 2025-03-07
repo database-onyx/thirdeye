@@ -53,7 +53,7 @@ app.post("/", async (req, res) => {
   const pin = req.body.pin;
   if (pin === "2525") {
     res.redirect("/thirdeyeportal1");
-  } else if (pin === "6464") {
+  } else if (pin === "7284") {
     res.redirect("/thirdeyeportal2");
   } else {
     // Invalid PIN, redirect back to pin.html
